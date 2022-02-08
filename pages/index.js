@@ -13,6 +13,10 @@ export default function Home() {
         <p>AVIF picture</p>
       </div>
       <div>
+        <Image src={picture} alt="" quality={100} />
+        <p>AVIF picture with max quality</p>
+      </div>
+      <div>
         <Image
           layout="fixed"
           width={40}
